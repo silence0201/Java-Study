@@ -1,9 +1,9 @@
-package s01.BasicType;
+package s01.Conversion;
 
 /**
  * Description: AutoPromote
  * Author: silence
- * Update: silence(2017-04-20 15:42)
+ * Update: silence(2017-04-20 16:09)
  */
 public class AutoPromote {
     public static void main(String[] args) {
@@ -31,5 +31,6 @@ public class AutoPromote {
         System.out.println("Hello!" + 'a' + 7);
         //输出字符串104Hello!
         System.out.println('a' + 7 + "Hello!");
+
     }
 }
