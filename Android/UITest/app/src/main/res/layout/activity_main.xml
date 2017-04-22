@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#d8e0e8" >
+    <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一个文本"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#00ff00"/>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="我是按钮"
+    />
+
+    <Button
+            android:id="@+id/hide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Hide"
+    />
+
+    <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Add"
+    />
+
+    <Button
+            android:id="@+id/alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Alert"
+    />
+
+    <Button
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Progress"
+    />
+
+    <EditText
+            android:id="@+id/editView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Some Word"
+            android:maxLines="2"
+    />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/img_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+    <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:progressBarStyleHorizontal"
+    />
+</LinearLayout>
