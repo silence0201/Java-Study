@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#d8e0e8" >
+    <!--<include layout="@layout/title" />-->
+    <com.silence.uilayouttest.Title android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/line_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Line-V"
+    />
+
+    <Button
+            android:id="@+id/line_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Line_H"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <EditText
+                android:id="@+id/input_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Type something here"
+                android:maxLines="2" />
+
+        <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Relative"
+    />
+
+    <android.support.percent.PercentFrameLayout
+            xmlns:app = "http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="第一个按钮"
+                app:layout_widthPercent="50%"
+                android:layout_gravity="left"
+        />
+
+        <Button
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="第二个按钮"
+                app:layout_widthPercent="50%"
+                android:layout_gravity="right"
+        />
+    </android.support.percent.PercentFrameLayout>
+
+</LinearLayout>
